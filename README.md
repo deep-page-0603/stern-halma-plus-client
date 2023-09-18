@@ -33,7 +33,7 @@ Built-in AI engine (it is driven by Dajnn)
 
 Rely on Flask server from stern-halma-plus
 
-💬 How to use this source?
+# How to use this source?
 
    ✅ Place model file in the proper path and rename it (you can find the model file in stern-halma-plus)
 
