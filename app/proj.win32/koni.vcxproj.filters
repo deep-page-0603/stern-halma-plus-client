@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mocos2d">
+      <UniqueIdentifier>{9f119f7b-cf3b-4dc4-ab9a-802596355d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cardlib">
+      <UniqueIdentifier>{4e74eac0-1452-4428-bba7-5d73a3364c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="konix">
+      <UniqueIdentifier>{52590ca2-423f-4bc8-97b4-62007dab343b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dajnn">
+      <UniqueIdentifier>{5581ef08-11f2-4005-a107-156d3cf1f889}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\appdelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gamescene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\global.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcserializer.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcsock.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mctoast.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcui.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcutil.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcxmlmanager.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mocos2d.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcdialog.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcjni.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcloadingscene.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mconline.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcplayer.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcplayerinfo.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcscene.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mocos2d\mcsceneinfo.cpp">
+      <Filter>mocos2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cardlib\cl2dplayer.cpp">
+      <Filter>cardlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cardlib\clscene.cpp">
+      <Filter>cardlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\backend.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\konix\koni.cpp">
+      <Filter>konix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\konix\konix.cpp">
+      <Filter>konix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\konix\kutil.cpp">
+      <Filter>konix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\konix\mcts.cpp">
+      <Filter>konix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\konix\net.cpp">
+      <Filter>konix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\konix\players.cpp">
+      <Filter>konix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajdense.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajfunc.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajgemm.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajmodel.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajnn.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajnorm.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajtensor.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajutil.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dajnn\dajconv.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\appdelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gamescene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\global.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcserializer.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcsock.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mctoast.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcui.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcutil.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcxmlmanager.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mocos2d.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcdialog.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcjni.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcloadingscene.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mconline.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcplayer.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcplayerinfo.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcscene.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mocos2d\mcsceneinfo.h">
+      <Filter>mocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cardlib\cl2dplayer.h">
+      <Filter>cardlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cardlib\clscene.h">
+      <Filter>cardlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\backend.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\koni.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\koni_p2_d5.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\konix.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\kutil.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\mcts.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\net.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\konix\players.h">
+      <Filter>konix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajdef.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajdense.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajfunc.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajgemm.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajmodel.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajnn.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajnorm.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajtensor.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajutil.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dajnn\dajconv.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

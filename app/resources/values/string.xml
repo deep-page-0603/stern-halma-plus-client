@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<app_title text = "AI-Koni"/>
+<touch_me text = "Touch screen to start"/>
+<prog_text text = "Moves : %d/%d"/>
+<game_level text = "Level: %s"/>
+<undo_count text = "Undo: %d/%d"/>
+<hint_legals text = "Trace: %s"/>
+<enabled text = "Yes"/>
+<disabled text = "No"/>
+<level_0 text = "Dummy"/>
+<level_1 text = "Beginner"/>
+<level_2 text = "Expert"/>
+<level_3 text = "Pro"/>
+<level_4 text = "Master"/>
+<level_5 text = "Veteran"/>
+<level_6 text = "Super"/>
+<level_7 text = "Mad"/>
+<exit_1 text = ""/>
+<exit_2 text = "Defence foul "/>
+<exit_3 text = "Attack foul "/>
+<exit_4 text = "TKO "/>
+<exit_5 text = "Out of moves "/>
+<exit_win text = "Congratulations. %syou win."/>
+<exit_draw text = "%sdraw."/>
+<exit_lose text = "%syou lose"/>
+<pythink_url text = "192.168.1.81:1989"/>
+<pythink_url_ex text = "127.0.0.1:2022"/>
